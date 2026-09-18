@@ -1,0 +1,24 @@
+# Datasets
+data/
+UNSW_NB15_training-set.csv
+UNSW_NB15_testing-set.csv
+
+# Generated results
+outputs/
+checkpoints/
+figures/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
