@@ -471,7 +471,7 @@ jupyter lab MFV_GDN_NSL_KDD_GitHub.ipynb
 
 ```bash
 export MFV_DATA_DIR="/path/to/UNSW_NB15"
-jupyter lab "MFV_GDN_UNSW_NB15_GitHub(1).ipynb"
+jupyter lab "MFV_GDN_UNSW_NB15_GitHub.ipynb"
 ```
 
 Optional project/output locations:
