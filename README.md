@@ -1,4 +1,4 @@
-# MFV-GDN — Multi-Dataset Intrusion Detection Framework
+# MFV-GDN: An Immune-Inspired Graph-Deep Neural Network Framework for Intrusion Detection
 
 This repository contains the **MFV-GDN** implementation for three benchmark intrusion-detection datasets:
 
@@ -27,7 +27,7 @@ The repository supports:
 |---|---|
 | CICIoT2023 | `MFV_GDN_CICIoT2023_GitHub.ipynb` |
 | NSL-KDD | `MFV_GDN_NSL_KDD_GitHub.ipynb` |
-| UNSW-NB15 | `MFV_GDN_UNSW_NB15_GitHub(1).ipynb` |
+| UNSW-NB15 | `MFV_GDN_UNSW_NB15_GitHub.ipynb` |
 
 Each notebook follows the same MFV-GDN methodology while using dataset-specific loading, labels, and train/test organization.
 
@@ -831,24 +831,6 @@ For publication-quality experiments:
 
 ---
 
-# 19. Citation
-
-If you use this repository in academic work, cite the associated MFV-GDN manuscript/publication.
-
-```bibtex
-@article{islam_mfvgdn,
-  title   = {MFV-GDN: An Immune-Inspired Graph-Deep Neural Network Framework for Intrusion Detection},
-  author  = {Islam, Md. Jahidul and others},
-  journal = {To be updated},
-  year    = {2026},
-  note    = {Final publication information to be updated}
-}
-```
-
-Replace the placeholder journal information with the final publication metadata when available.
-
----
-
 ## Summary
 
 This repository provides a common MFV-GDN implementation across **CICIoT2023, NSL-KDD, and UNSW-NB15** while preserving dataset-specific label structures and train/test organization.
@@ -868,3 +850,32 @@ HHO
 ```
 
 for reproducible binary and multi-class intrusion-detection research.
+
+---
+## License
+
+The notebook itself does not specify a software license.
+
+Before public release, add an explicit repository license such as an appropriate open-source license selected by the project authors and institution. Dataset licensing and redistribution conditions are separate from the source-code license and should also be respected.
+
+---
+## Acknowledgment
+
+This repository implements the MFV-GDN intrusion-detection framework and is intended to support reproducible research in:
+
+- network intrusion detection,
+
+- graph neural networks,
+
+- artificial immune systems,
+
+- fuzzy anomaly detection,
+
+- adversarial robustness,
+
+- interpretable machine learning.
+
+---
+## Disclaimer
+
+This repository is provided for academic and research purposes. Intrusion-detection performance depends on dataset preparation, computational environment, preprocessing choices, hyperparameters, random state, software versions, and experimental protocol. Therefore, results should be reproduced from the code rather than assumed from previously reported values.
